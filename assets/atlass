@@ -1,0 +1,52 @@
+{"frames": {
+
+"anti_virus.png":
+{
+	"frame": {"x":2,"y":2,"w":52,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":0,"w":52,"h":64},
+	"sourceSize": {"w":64,"h":64}
+},
+"computer.png":
+{
+	"frame": {"x":56,"y":2,"w":256,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":256,"h":64},
+	"sourceSize": {"w":256,"h":64}
+},
+"program.png":
+{
+	"frame": {"x":314,"y":2,"w":446,"h":126},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":446,"h":126},
+	"sourceSize": {"w":448,"h":128}
+},
+"scan.png":
+{
+	"frame": {"x":2,"y":130,"w":538,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":538,"h":64},
+	"sourceSize": {"w":576,"h":64}
+},
+"virus.png":
+{
+	"frame": {"x":542,"y":130,"w":320,"h":64},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":320,"h":64},
+	"sourceSize": {"w":320,"h":64}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "atlass.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":256},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:dd168ba5b5b5aa57e89bf23e8aef405d$"
+}
+}

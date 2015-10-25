@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="15" height="10" tilewidth="64" tileheight="64">
+ <tileset firstgid="1" name="level_01_tileset" tilewidth="64" tileheight="64">
+  <image source="level_01/level_01_tileset.png" width="64" height="64"/>
+ </tileset>
+ <tileset firstgid="2" name="level_01_metatiles" tilewidth="64" tileheight="64">
+  <image source="level_01/level_01_metatiles.png" width="320" height="64"/>
+  <tile id="0">
+   <properties>
+    <property name="type" value="solid"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="type" value="platform"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="type" value="lslope"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="type" value="rslope"/>
+   </properties>
+  </tile>
+  <tile id="4">
+   <properties>
+    <property name="type" value="ladder"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="parallax" width="15" height="10">
+  <properties>
+   <property name="imagesrc" value="level_01_parallax"/>
+  </properties>
+  <data encoding="base64">
+   AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  </data>
+ </layer>
+ <layer name="background" width="15" height="10">
+  <data encoding="base64">
+   AQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAEAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAA
+  </data>
+ </layer>
+ <layer name="collision" width="15" height="10">
+  <properties>
+   <property name="" value=""/>
+  </properties>
+  <data encoding="base64">
+   AgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAACAAAAAAAAAAAAAAACAAAAAgAAAAAAAAACAAAAAAAAAAIAAAACAAAAAgAAAAAAAAACAAAAAgAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAgAAAAIAAAAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAACAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAA
+  </data>
+ </layer>
+ <objectgroup name="EnemyEntity" width="15" height="10">
+  <object name="anti_virus" x="832" y="64" width="64" height="64">
+   <properties>
+    <property name="image" value="anti_virus"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="128" y="64" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="256" y="192" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="256" y="448" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="576" y="320" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="512" y="512" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="704" y="192" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="704" y="384" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="program" x="832" y="512" width="64" height="64">
+   <properties>
+    <property name="image" value="program"/>
+    <property name="spriteheight" value="64"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="PlayerEntity" width="15" height="10">
+  <object name="virus" x="64" y="512" width="64" height="64">
+   <properties>
+    <property name="image" value="virus"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object name="computer" x="0" y="0" width="64" height="64">
+   <properties>
+    <property name="image" value="computer"/>
+    <property name="spritewidth" value="64"/>
+   </properties>
+  </object>
+  <object x="64" y="0" height="64"/>
+  <object x="64" y="0" height="64"/>
+ </objectgroup>
+</map>
